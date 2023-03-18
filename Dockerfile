@@ -28,10 +28,6 @@ COPY --from=builder /app/dist ./dist
 CMD [ "node","dist/main.js"]
 
 
-
-
-
-
-
-
-
+# git remote add origin git@github.com:JoseGuzman2022/docker-graphql.git
+# git branch -M main
+# git push -u origin main
